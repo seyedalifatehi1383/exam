@@ -25,7 +25,5 @@ export const useCounterStore = defineStore('counter', () => {
     }
   }
 
-  export default {
-    return { count, doubleCount, products, addProduct, removeProduct }
-  }
+  return { count, doubleCount, products, addProduct, removeProduct }
 })
